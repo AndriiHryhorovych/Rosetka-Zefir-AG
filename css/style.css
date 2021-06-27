@@ -234,7 +234,7 @@ body{
 
 
 .home__catalog {
-	background: #f00;
+	/*background: #f00;*/
 	min-height: 100px;
 	width: 300px;
 	min-width: 300px;
@@ -247,5 +247,29 @@ body{
 }
 .d-flex {
 	display: flex;
+}
+.home__catalog__list__item {
+	list-style-type: none;
+	display: flex;
+	align-items: center;
+}
+.home__catalog__list__item a {
+	width: 300px;
+	height: 26px;
+	position: relative;
+	text-decoration: none;
+	font-size: 14px;
+	color: #3e77aa;
+}
+.home__catalog__list__item  a:hover {
+	color: red;
+	text-decoration: underline;
+}
+.home__catalog__list__item img {
+	height: 20px;
+	width: 20px;
+	margin: 0 6px 0 -30px;
+	position: absolute;
+	top: -1px;
 }
 
