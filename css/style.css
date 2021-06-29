@@ -314,8 +314,9 @@ body{
 	text-decoration: underline;
 }
 .home__banner img{
-	position: absolute;
-	top: 30px;
-	left: 30px;
+	display: block;
+	margin: 30px 0 0 30px;
+/*	top: 30px;
+	left: 30px;*/
 	width: 95%;
 }
