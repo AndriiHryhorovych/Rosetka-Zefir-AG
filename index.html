@@ -1,36 +1,65 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Document</title>
-	<!-- fonts -->
-	<link rel="preconnect" href="https://fonts.googleapis.com">
-	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
-	<!-- Styleshets -->
-	<link rel="stylesheet" type="text/css" href="css/style.css">
-</head>
-<body>
-	<div style="display: none!important">
+	<!DOCTYPE html>
+	<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Document</title>
+		<!-- fonts -->
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+		<!-- Styleshets -->
+
+		<link rel="stylesheet" type="text/css" href="css/slick.css"/>
+		<link rel="stylesheet" type="text/css" href="css/slick-theme.css"/>
+
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<link rel="stylesheet" type="text/css" href="css/_product-card.css">
+	</head>
+	<body>
+		<div style="display: none!important">
+			<svg version="1.1" id="chevron-right" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+			viewBox="0 0 256 256" style="enable-background:new 0 0 256 256;" xml:space="preserve">
+			<g>
+				<g>
+					<polygon points="79.093,0 48.907,30.187 146.72,128 48.907,225.813 79.093,256 207.093,128 		"/>
+				</g>
+			</g>
+		</svg>
 		<svg version="1.1" id="search-mic" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-			 viewBox="0 0 435.2 435.2" style="enable-background:new 0 0 435.2 435.2;" xml:space="preserve">
+		viewBox="0 0 435.2 435.2" style="enable-background:new 0 0 435.2 435.2;" xml:space="preserve">
 		<g>
 			<g>
 				<path d="M356.864,224.768c0-8.704-6.656-15.36-15.36-15.36s-15.36,6.656-15.36,15.36c0,59.904-48.64,108.544-108.544,108.544
-					c-59.904,0-108.544-48.64-108.544-108.544c0-8.704-6.656-15.36-15.36-15.36c-8.704,0-15.36,6.656-15.36,15.36
-					c0,71.168,53.248,131.072,123.904,138.752v40.96h-55.808c-8.704,0-15.36,6.656-15.36,15.36s6.656,15.36,15.36,15.36h142.336
-					c8.704,0,15.36-6.656,15.36-15.36s-6.656-15.36-15.36-15.36H232.96v-40.96C303.616,355.84,356.864,295.936,356.864,224.768z"/>
+				c-59.904,0-108.544-48.64-108.544-108.544c0-8.704-6.656-15.36-15.36-15.36c-8.704,0-15.36,6.656-15.36,15.36
+				c0,71.168,53.248,131.072,123.904,138.752v40.96h-55.808c-8.704,0-15.36,6.656-15.36,15.36s6.656,15.36,15.36,15.36h142.336
+				c8.704,0,15.36-6.656,15.36-15.36s-6.656-15.36-15.36-15.36H232.96v-40.96C303.616,355.84,356.864,295.936,356.864,224.768z"/>
 			</g>
 		</g>
 		<g>
 			<g>
 				<path d="M217.6,0c-47.104,0-85.504,38.4-85.504,85.504v138.752c0,47.616,38.4,85.504,85.504,86.016
-					c47.104,0,85.504-38.4,85.504-85.504V85.504C303.104,38.4,264.704,0,217.6,0z"/>
+				c47.104,0,85.504-38.4,85.504-85.504V85.504C303.104,38.4,264.704,0,217.6,0z"/>
+			</g>
+		</g>
+		</svg>
+		<svg version="1.1" id="heart" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
+		<g>
+			<g>
+				<path d="M469.585,80.732c-55.679-52.984-146.306-52.984-202.003-0.012l-11.581,11l-11.569-10.995
+			c-55.703-52.979-146.318-52.973-202.021,0C15.061,106.739,0,141.244,0,177.874c0,36.642,15.061,71.141,42.415,97.166
+			l201.219,191.033c3.461,3.294,7.917,4.934,12.366,4.934c4.449,0,8.899-1.647,12.366-4.94l201.219-191.027
+			C496.933,249.021,512,214.517,512,177.88C512,141.244,496.933,106.745,469.585,80.732z M444.829,248.991L256,428.269
+			L67.177,248.997C47.026,229.835,35.93,204.576,35.93,177.88s11.096-51.955,31.247-71.117
+			c21.019-20.001,48.625-29.995,76.237-29.995c27.618,0,55.236,10.006,76.255,30.007l23.953,22.75c6.934,6.593,17.815,6.593,24.75,0
+			l23.959-22.762c42.044-39.996,110.448-39.996,152.492,0c20.145,19.163,31.247,44.421,31.247,71.117
+			S464.968,229.829,444.829,248.991z"/>
 			</g>
 		</g>
 		</svg>
 	</div>
+
 	<div class="wrapper">
 		<header class="header">
 			<div class="container">
@@ -102,7 +131,7 @@
 		</header>
 		<main>
 			<div class="container d-flex">
-				<div class="home__catalog" class="border-right-below">
+				<div class="home__catalog">
 					<ul class="home__catalog__list">
 						<li class="home__catalog__list__item">
 							<a href="#">
@@ -203,18 +232,165 @@
 					</ul>
 					<div class="home__catalog__help">
 						<a href="#">
-								<img src="img/information.svg" alt="Ноутбук">
-								<span>Довідковий центр</span>
-							</a>
+							<img src="img/information.svg" alt="Ноутбук">
+							<span>Довідковий центр</span>
+						</a>
 					</div>
 				</div>
 				<!-- /home__catalog -->
-				<div class="home__banner">
-					<img src="img/banner.jpg" alt="Банер">
+				<div class="home__content">
+				<!-- slide start -->
+				<div class="home__banner-slider">
+					<div><img alt="" src="https://content2.rozetka.com.ua/banner_main/image_ua/original/186285549.jpg"></div>
+					<div><img alt="" src="https://content2.rozetka.com.ua/banner_main/image_ua/original/188877775.jpg"></div>
+					<div><img alt="" src="https://content2.rozetka.com.ua/banner_main/image_ua/original/186138531.jpg"></div>
 				</div>
-				<!-- /home__banner -->
+				<!-- slider end -->
+				<div class="home__product-list">	
+						<h2 class="title">	
+							Більше товарів для вибору
+						</h2>
+						<ul>	
+								<li class="product-card home__product-list-carg">	
+									<div class="thumb">
+										<button class="add-to-favorites">
+											<svg>
+												<use href="#heart"></use>
+											</svg>
+										</button>
+										<a href="#">
+											<img src="https://content.rozetka.com.ua/goods/images/preview/75984661.jpg" alt="">
+										</a>
+									</div>
+									<a href="#" class="title">
+										Рюкзак міський Bag 8810 33л. Black
+									</a>
+									<div class="old-price">
+										1376 ₴
+									</div>
+									<div class="price">
+										599 ₴
+									</div>
+									<div class="availability">
+										Немає в наявності
+									</div>
+								</li>
+								<li class="product-card home__product-list-carg">	
+									<div class="thumb">
+										<button class="add-to-favorites">
+											<svg>
+												<use href="#heart"></use>
+											</svg>
+										</button>
+										<a href="#">
+											<img src="https://content.rozetka.com.ua/goods/images/preview/75984661.jpg" alt="">
+										</a>
+									</div>
+									<a href="#" class="title">
+										Рюкзак міський Bag 8810 33л. Black
+									</a>
+									<div class="old-price">
+										1376 ₴
+									</div>
+									<div class="price">
+										599 ₴
+									</div>
+									<div class="availability">
+										Немає в наявності
+									</div>
+								</li>
+								<li class="product-card home__product-list-carg">	
+									<div class="thumb">
+										<button class="add-to-favorites">
+											<svg>
+												<use href="#heart"></use>
+											</svg>
+										</button>
+										<a href="#">
+											<img src="https://content.rozetka.com.ua/goods/images/preview/75984661.jpg" alt="">
+										</a>
+									</div>
+									<a href="#" class="title">
+										Рюкзак міський Bag 8810 33л. Black
+									</a>
+									<div class="old-price">
+										1376 ₴
+									</div>
+									<div class="price">
+										599 ₴
+									</div>
+									<div class="availability">
+										Немає в наявності
+									</div>
+								</li>
+								<li class="product-card home__product-list-carg">	
+									<div class="thumb">
+										<button class="add-to-favorites">
+											<svg>
+												<use href="#heart"></use>
+											</svg>
+										</button>
+										<a href="#">
+											<img src="https://content.rozetka.com.ua/goods/images/preview/75984661.jpg" alt="">
+										</a>
+									</div>
+									<a href="#" class="title">
+										Рюкзак міський Bag 8810 33л. Black
+									</a>
+									<div class="old-price">
+										1376 ₴
+									</div>
+									<div class="price">
+										599 ₴
+									</div>
+									<div class="availability">
+										Немає в наявності
+									</div>
+								</li>
+								<li class="product-card home__product-list-carg">	
+									<div class="thumb">
+										<button class="add-to-favorites">
+											<svg>
+												<use href="#heart"></use>
+											</svg>
+										</button>
+										<a href="#">
+											<img src="https://content.rozetka.com.ua/goods/images/preview/75984661.jpg" alt="">
+										</a>
+									</div>
+									<a href="#" class="title">
+										Рюкзак міський Bag 8810 33л. Black
+									</a>
+									<div class="old-price">
+										1376 ₴
+									</div>
+									<div class="price">
+										599 ₴
+									</div>
+									<div class="availability">
+										Немає в наявності
+									</div>
+								</li>
+						</ul>	
+				</div>
+				<!-- home__product-list end-->
 			</div>
-		</main>
+		</div>
+	</main>
+	<!-- Slide menu -->
+	<div class="slide-menu">
+
 	</div>
+	<!-- /Slide menu -->
+</div>
+
+<script
+	src="https://code.jquery.com/jquery-2.2.4.min.js"
+	integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+	crossorigin="anonymous">
+</script>
+<!-- slick slider -->
+<script type="text/javascript" src="js/slick.min.js"></script>
+<script type="text/javascript" src="js/app.js"></script>
 </body>
 </html>
