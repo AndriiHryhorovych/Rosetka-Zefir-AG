@@ -1,7 +1,9 @@
 .product-card {
 	list-style: none;
 	display: block;
+	/*width: 240px;*/
 	max-width: 240px;
+
 }
 .product-card .thumb {
 	position: relative;
@@ -41,6 +43,18 @@
 	width: 24px;
 	fill: #ffa900;
 }
+.product-card .thumb .add-to-favorites svg.filled {
+	display: none;
+}
+.product-card .thumb .add-to-favorites.in-favourites svg {
+	display: none;
+}
+.product-card .thumb .add-to-favorites.in-favourites svg.filled {
+	display: inline-block;
+}
+
+
+
 .product-card .title {
 	font-size: 14px;
 	color: #333;
